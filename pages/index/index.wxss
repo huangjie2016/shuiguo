@@ -1,0 +1,72 @@
+.search{
+  width: 100%;
+  height: 110rpx;
+  background: rgb(238,238,238);
+  padding-top: 30rpx;
+  position:relative;
+}
+.search input{
+  width: 90%;
+  height: 80rpx;
+  background: #fff;
+  margin-left:5%;
+  text-indent:24rpx;
+}
+.swipe{
+  width:100%;
+  height:300rpx;
+}
+.swipe .slide-image{
+  width:100%;
+}
+.member{
+  width:100%;
+  height:220rpx;
+  background: rgb(238,238,238);
+  padding-top: 20rpx;
+}
+.member-card{
+  width:90%;
+  height:200rpx;
+  background: rgb(88,200,114);
+  border-radius:8px;
+  margin-left:5%;
+  color:#fff;
+}
+.member-card-left{
+  float:left;
+  width:80%;
+  text-align:center;
+  border-right: 1rpx solid #fff;
+}
+.member-card-right{
+  float:right;
+  width:16%;
+  height:200rpx;
+  margin-top:10rpx;
+  line-height:42rpx;
+  text-align:center;
+}
+.member-card-text1{
+  line-height:200rpx;
+}
+.match{
+  text-align:center;
+  line-height:80rpx;
+}
+.match-list{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2rpx;
+}
+.match-list image{
+  width:100%;
+  height: 500rpx;
+}
+
+
+
+
+
+
+

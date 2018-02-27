@@ -1,0 +1,22 @@
+<view>
+    <view class="class-left">
+        <ul>
+            <li data-num="1" class="{{_num == 1 ? 'change-bg': ''}}" bindtap="clickNav">全部</li>
+            <li data-num="2" class="{{_num == 2 ? 'change-bg': ''}}" bindtap="clickNav">拼盘</li>
+            <li data-num="3" class="{{_num == 3 ? 'change-bg': ''}}" bindtap="clickNav">水果</li>
+        </ul>
+    </view>
+    <view class="class-right">
+        <view>
+            <text class="list-title">{{title}}</text>
+            <view wx:for="{{list}}" wx:key="" class="list-mt">
+                <image class="list-img" src="{{item.url}}" />
+                <view class="list-info">
+                    <view>{{item.name}}</view>
+                    <view class="list-count">{{item.count}}人已购买</view>
+                    <view class="list-color">{{item.price}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
